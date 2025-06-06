@@ -5,14 +5,14 @@ Este proyecto es un aplicativo de seguimiento de tareas (Todo App) desarrollado 
 ## Características Principales
 
 * **Gestión de Objetivos**:
-    * [cite_start]**Crear**: Añade nuevos objetivos con un nombre, fecha de inicio y una fecha planeada de finalización. 
+    * **Crear**: Añade nuevos objetivos con un nombre, fecha de inicio y una fecha planeada de finalización. 
     * **Leer**: Visualiza una lista de todos los objetivos existentes.
     * **Detalle**: Accede a una vista detallada de cada objetivo para ver y gestionar sus tareas asociadas.
     * **Actualizar**: Modifica la información de los objetivos existentes.
-    * [cite_start]**Eliminar**: Elimina objetivos, lo que también eliminará automáticamente todas las tareas asociadas a ellos. 
+    * **Eliminar**: Elimina objetivos, lo que también eliminará automáticamente todas las tareas asociadas a ellos. 
 
-* [cite_start]**Gestión de Tareas**: 
-    * [cite_start]**Crear**: Añade nuevas tareas a un objetivo específico, incluyendo un título y una descripción. 
+* **Gestión de Tareas**: 
+    * **Crear**: Añade nuevas tareas a un objetivo específico, incluyendo un título y una descripción. 
     * **Leer**: Visualiza la lista de tareas pertenecientes a un objetivo en su vista de detalle.
     * **Actualizar**: Modifica el título y la descripción de las tareas existentes.
     * **Eliminar**: Borra tareas específicas de un objetivo.
@@ -23,13 +23,13 @@ Este proyecto está construido con una arquitectura de tres capas:
 
 * **Frontend**: Desarrollado con **React** y **Vite**. Ofrece una interfaz de usuario intuitiva y reactiva para interactuar con la aplicación.
     * `react-router-dom` para la navegación entre páginas.
-    * [cite_start]`axios` para la comunicación eficiente con la API del backend. 
+    * `axios` para la comunicación eficiente con la API del backend. 
 
 * **Backend**: Implementado con **Node.js** y el framework **Express**. [cite_start]Proporciona una API RESTful para manejar la lógica del negocio y las operaciones de la base de datos. 
     * `cors` para permitir la comunicación segura entre el frontend y el backend.
     * `dotenv` para la gestión de variables de entorno (credenciales de la base de datos).
 
-* [cite_start]**Base de Datos**: Se utiliza **PostgreSQL** como sistema de gestión de bases de datos relacionales, garantizando el almacenamiento persistente y estructurado de los objetivos y tareas. 
+* **Base de Datos**: Se utiliza **PostgreSQL** como sistema de gestión de bases de datos relacionales, garantizando el almacenamiento persistente y estructurado de los objetivos y tareas. 
 
 ## Estructura del Proyecto
 
